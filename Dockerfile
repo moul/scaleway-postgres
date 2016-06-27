@@ -11,7 +11,7 @@ RUN /usr/local/sbin/builder-enter
 RUN apt-get -q update         \
  && apt-get -y -qq upgrade    \
  && apt-get -y -qq install    \
-        postgresql            \
+        postgresql-9.5        \
  && apt-get clean
 
 
